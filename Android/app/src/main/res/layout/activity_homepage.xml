@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homepage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@drawable/bg"
+        android:orientation="vertical">
+
+        <android.widget.Button
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/bg2"
+            android:text="START LOCATING"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+        <android.widget.Button
+            android:id="@+id/stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/bg2"
+            android:text="STOP LOCATING"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+        <ImageView
+            android:id="@+id/compass_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="80dp"
+            android:src="@drawable/compass_icon" />
+
+
+
+
+
+        <ImageView
+            android:id="@+id/weather"
+            android:layout_width="189dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="110dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/wea" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bell"
+            android:layout_width="164dp"
+            android:layout_height="89dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/notificationbell" />
+
+        <ImageView
+            android:id="@+id/shield"
+            android:layout_width="335dp"
+            android:layout_height="88dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/shield" />
+
+    </LinearLayout>
+
+
+
+        <android.widget.Button
+            android:id="@+id/navigate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/navigate"
+            android:text="NAVIGATE"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+
+
+
+
+
+
+        <android.widget.Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/bg2"
+            android:text="LOGOUT"
+            android:textColor="@color/white"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>
+</ScrollView>
